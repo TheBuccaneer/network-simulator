@@ -1,0 +1,562 @@
+4Simulator::runSimulation with 5 nodes for 5 seconds
+Broadcast:0->0..4
+Broadcast:1->0..4
+Broadcast:4->0..4
+Broadcast:2->0..4
+Broadcast:3->0..4
+Node 3, Loop 1
+Node 4, Loop 1
+Node 1, Loop 1
+Node 0, Loop 1
+Node 2, Loop 1
+Receive Broadcast:4<-1
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Receive Broadcast:3<-4
+Receive Broadcast:4<-3
+Node 4, Loop 2
+Node 0, Loop 2
+Node 3, Loop 2
+Node 2, Loop 2
+Node 1, Loop 2
+Receive Broadcast:4<-2
+Receive Broadcast:4<-0
+Receive Broadcast:4<-1
+Receive Broadcast:3<-4
+Receive Broadcast:4<-1
+Node 1, Loop 3
+Broadcast:0->0..4
+Broadcast:4->0..4
+Node 2, Loop 3
+Node 3, Loop 3
+Node 0, Loop 3
+Node 4, Loop 3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Receive Broadcast:4<-3
+Node 1, Loop 4
+Receive Broadcast:4<-1
+Node 4, Loop 4
+Node 3, Loop 4
+Node 2, Loop 4
+Receive Broadcast:4<-0
+Node 0, Loop 4
+Receive Broadcast:3<-4
+Receive Broadcast:4<-0
+Node 4, Loop 5
+Node 1, Loop 5
+Receive Broadcast:3<-4
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Node 0, Loop 5
+Receive Broadcast:3<-4
+Node 3, Loop 5
+Broadcast:4->0..4
+Node 1, Loop 6
+Receive Broadcast:3<-4
+Node 2, Loop 5
+Node 4, Loop 6
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Broadcast:0->0..4
+Node 2, Loop 6
+Node 0, Loop 6
+Node 1, Loop 7
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Node 2, Loop 7
+Node 3, Loop 6
+Node 0, Loop 7
+Node 4, Loop 7
+Node 1, Loop 8
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 3, Loop 7
+Broadcast:2->0..4
+Broadcast:1->0..4
+Receive Broadcast:4<-0
+Node 2, Loop 8
+Receive Broadcast:4<-2
+Node 1, Loop 9
+Receive Broadcast:4<-1
+Receive Broadcast:4<-2
+Broadcast:2->0..4
+Node 4, Loop 8
+Receive Broadcast:4<-2
+Node 0, Loop 8
+Node 2, Loop 9
+Receive Broadcast:4<-1
+Broadcast:1->0..4
+Receive Broadcast:3<-4
+Node 4, Loop 9
+Receive Broadcast:4<-2
+Node 1, Loop 10
+Node 2, Loop 10
+Receive Broadcast:4<-1
+Receive Broadcast:4<-2
+Node 0, Loop 9
+Node 2, Loop 11
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Node 1, Loop 11
+Broadcast:3->0..4
+Node 4, Loop 10
+Node 0, Loop 10
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Node 3, Loop 8
+Receive Broadcast:4<-3
+Node 4, Loop 11
+Node 1, Loop 12
+Receive Broadcast:4<-0
+Receive Broadcast:4<-2
+Node 0, Loop 11
+Node 3, Loop 9
+Broadcast:2->0..4
+Node 4, Loop 12
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Node 2, Loop 12
+Node 3, Loop 10
+Node 1, Loop 13
+Node 0, Loop 12
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Node 4, Loop 13
+Broadcast:3->0..4
+Receive Broadcast:4<-3
+Node 0, Loop 13
+Receive Broadcast:4<-3
+Node 3, Loop 11
+Receive Broadcast:4<-3
+Receive Broadcast:4<-1
+Node 4, Loop 14
+Node 1, Loop 14
+Receive Broadcast:4<-3
+Node 0, Loop 14
+Node 3, Loop 12
+Broadcast:2->0..4
+Receive Broadcast:4<-2
+Node 2, Loop 13
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Broadcast:0->0..4
+Node 1, Loop 15
+Node 4, Loop 15
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Node 0, Loop 15
+Node 1, Loop 16
+Receive Broadcast:4<-0
+Broadcast:2->0..4
+Node 4, Loop 16
+Node 2, Loop 14
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Broadcast:0->0..4
+Receive Broadcast:4<-2
+Node 4, Loop 17
+Node 0, Loop 16
+Node 1, Loop 17
+Receive Broadcast:4<-0
+Node 2, Loop 15
+Receive Broadcast:4<-0
+Node 3, Loop 13
+Receive Broadcast:4<-0
+Receive Broadcast:4<-2
+Broadcast:1->0..4
+Node 4, Loop 18
+Node 3, Loop 14
+Receive Broadcast:4<-1
+Node 1, Loop 18
+Receive Broadcast:4<-1
+Receive Broadcast:4<-0
+Receive Broadcast:4<-1
+Broadcast:2->0..4
+Node 4, Loop 19
+Node 3, Loop 15
+Node 2, Loop 16
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Node 0, Loop 17
+Receive Broadcast:4<-1
+Receive Broadcast:4<-2
+Broadcast:4->0..4
+Node 1, Loop 19
+Node 4, Loop 20
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 3, Loop 16
+Node 0, Loop 18
+Node 1, Loop 20
+Node 2, Loop 17
+Receive Broadcast:4<-2
+Receive Broadcast:3<-4
+Node 3, Loop 17
+Node 0, Loop 19
+Receive Broadcast:4<-2
+Node 3, Loop 18
+Receive Broadcast:3<-4
+Broadcast:3->0..4
+Node 3, Loop 19
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Node 2, Loop 18
+Broadcast:0->0..4
+Broadcast:4->0..4
+Broadcast:3->0..4
+Node 1, Loop 21
+Node 0, Loop 20
+Receive Broadcast:4<-0
+Node 4, Loop 21
+Node 3, Loop 20
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Broadcast:2->0..4
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Node 1, Loop 22
+Node 2, Loop 19
+Node 4, Loop 22
+Receive Broadcast:4<-3
+Broadcast:3->0..4
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Node 3, Loop 21
+Broadcast:1->0..4
+Broadcast:2->0..4
+Node 4, Loop 23
+Node 1, Loop 23
+Node 2, Loop 20
+Receive Broadcast:4<-2
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Receive Broadcast:3<-4
+Node 1, Loop 24
+Node 4, Loop 24
+Node 3, Loop 22
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Broadcast:4->0..4
+Node 4, Loop 25
+Receive Broadcast:4<-1
+Node 4, Loop 26
+Node 2, Loop 21
+Receive Broadcast:4<-3
+Receive Broadcast:3<-4
+Node 2, Loop 22
+Broadcast:4->0..4
+Receive Broadcast:4<-1
+Node 2, Loop 23
+Node 3, Loop 23
+Node 4, Loop 27
+Node 1, Loop 25
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Receive Broadcast:4<-0
+Node 2, Loop 24
+Node 1, Loop 26
+Receive Broadcast:4<-3
+Node 0, Loop 21
+Node 3, Loop 24
+Receive Broadcast:4<-3
+Node 2, Loop 25
+Receive Broadcast:3<-4
+Receive Broadcast:4<-1
+Node 0, Loop 22
+Node 3, Loop 25
+Node 1, Loop 27
+Receive Broadcast:4<-0
+Node 1, Loop 28
+Receive Broadcast:4<-0
+Receive Broadcast:4<-2
+Node 3, Loop 26
+Node 1, Loop 29
+Receive Broadcast:3<-4
+Receive Broadcast:4<-3
+Node 3, Loop 27
+Node 0, Loop 23
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 3, Loop 28
+Broadcast:0->0..4
+Node 0, Loop 24
+Receive Broadcast:4<-0
+Receive Broadcast:4<-2
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Node 1, Loop 30
+Node 4, Loop 28
+Receive Broadcast:4<-0
+Broadcast:3->0..4
+Broadcast:0->0..4
+Node 0, Loop 25
+Receive Broadcast:4<-3
+Node 2, Loop 26
+Node 3, Loop 29
+Receive Broadcast:4<-3
+Receive Broadcast:4<-1
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Node 4, Loop 29
+Node 2, Loop 27
+Node 0, Loop 26
+Receive Broadcast:4<-0
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Node 1, Loop 31
+Receive Broadcast:4<-0
+Node 3, Loop 30
+Broadcast:0->0..4
+Node 4, Loop 30
+Node 2, Loop 28
+Receive Broadcast:4<-0
+Node 0, Loop 27
+Node 1, Loop 32
+Receive Broadcast:4<-0
+Node 2, Loop 29
+Receive Broadcast:4<-2
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Node 3, Loop 31
+Broadcast:0->0..4
+Node 4, Loop 31
+Node 1, Loop 33
+Node 0, Loop 28
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Node 4, Loop 32
+Broadcast:2->0..4
+Node 3, Loop 32
+Broadcast:0->0..4
+Node 2, Loop 30
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Node 1, Loop 34
+Receive Broadcast:4<-0
+Node 4, Loop 33
+Node 0, Loop 29
+Node 3, Loop 33
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Receive Broadcast:4<-0
+Node 2, Loop 31
+Node 4, Loop 34
+Receive Broadcast:4<-0
+Node 0, Loop 30
+Node 1, Loop 35
+Node 3, Loop 34
+Receive Broadcast:4<-0
+Broadcast:1->0..4
+Node 1, Loop 36
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Broadcast:2->0..4
+Receive Broadcast:4<-1
+Node 0, Loop 31
+Receive Broadcast:4<-2
+Node 2, Loop 32
+Broadcast:4->0..4
+Node 3, Loop 35
+Receive Broadcast:4<-2
+Node 1, Loop 37
+Receive Broadcast:4<-2
+Node 0, Loop 32
+Node 4, Loop 35
+Receive Broadcast:3<-4
+Broadcast:3->0..4
+Receive Broadcast:4<-2
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 3, Loop 36
+Node 4, Loop 36
+Broadcast:0->0..4
+Node 2, Loop 33
+Receive Broadcast:4<-3
+Receive Broadcast:3<-4
+Node 0, Loop 33
+Node 1, Loop 38
+Receive Broadcast:4<-0
+Node 4, Loop 37
+Node 3, Loop 37
+Receive Broadcast:4<-3
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Node 2, Loop 34
+Receive Broadcast:4<-0
+Node 0, Loop 34
+Node 1, Loop 39
+Node 4, Loop 38
+Receive Broadcast:4<-3
+Broadcast:3->0..4
+Receive Broadcast:4<-3
+Node 2, Loop 35
+Node 3, Loop 38
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Broadcast:1->0..4
+Node 4, Loop 39
+Node 0, Loop 35
+Node 2, Loop 36
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Node 1, Loop 40
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Node 0, Loop 36
+Receive Broadcast:4<-3
+Broadcast:3->0..4
+Node 4, Loop 40
+Node 2, Loop 37
+Receive Broadcast:4<-3
+Node 1, Loop 41
+Node 3, Loop 39
+Receive Broadcast:4<-3
+Node 0, Loop 37
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Broadcast:4->0..4
+Node 2, Loop 38
+Node 1, Loop 42
+Node 4, Loop 41
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 3, Loop 40
+Node 0, Loop 38
+Receive Broadcast:3<-4
+Broadcast:1->0..4
+Node 2, Loop 39
+Receive Broadcast:4<-1
+Node 1, Loop 43
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Node 0, Loop 39
+Broadcast:4->0..4
+Node 3, Loop 41
+Node 2, Loop 40
+Node 4, Loop 42
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 2, Loop 41
+Broadcast:3->0..4
+Node 0, Loop 40
+Node 3, Loop 42
+Receive Broadcast:4<-3
+Node 0, Loop 41
+Receive Broadcast:3<-4
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Node 1, Loop 44
+Broadcast:2->0..4
+Receive Broadcast:4<-3
+Receive Broadcast:4<-2
+Node 1, Loop 45
+Broadcast:4->0..4
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Node 4, Loop 43
+Receive Broadcast:4<-2
+Broadcast:0->0..4
+Node 2, Loop 42
+Node 0, Loop 42
+Receive Broadcast:3<-4
+Node 1, Loop 46
+Node 3, Loop 43
+Receive Broadcast:3<-4
+Node 0, Loop 43
+Receive Broadcast:3<-4
+Receive Broadcast:4<-0
+Node 4, Loop 44
+Node 2, Loop 43
+Node 3, Loop 44
+Node 1, Loop 47
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Receive Broadcast:4<-0
+Receive Broadcast:3<-4
+Broadcast:4->0..4
+Broadcast:1->0..4
+Node 3, Loop 45
+Node 1, Loop 48
+Receive Broadcast:3<-4
+Node 3, Loop 46
+Receive Broadcast:4<-1
+Node 3, Loop 47
+Node 2, Loop 44
+Receive Broadcast:3<-4
+Node 4, Loop 45
+Receive Broadcast:4<-1
+Broadcast:1->0..4
+Receive Broadcast:4<-1
+Node 1, Loop 49
+Node 4, Loop 46
+Node 2, Loop 45
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Receive Broadcast:4<-1
+Node 4, Loop 47
+Receive Broadcast:3<-4
+Node 0, Loop 44
+Node 3, Loop 48
+Receive Broadcast:3<-4
+Broadcast:2->0..4
+Receive Broadcast:4<-2
+Receive Broadcast:4<-2
+Node 0, Loop 45
+Receive Broadcast:4<-2
+Node 2, Loop 46
+Broadcast:3->0..4
+Receive Broadcast:4<-1
+Node 2, Loop 47
+Receive Broadcast:4<-3
+Node 2, Loop 48
+Receive Broadcast:4<-2
+Node 3, Loop 49
+Node 1, Loop 50
+Node 4, Loop 48
+Node 0, Loop 46
+Receive Broadcast:4<-3
+Receive Broadcast:4<-3
+Receive Broadcast:4<-1
+Node 1, Loop 51
+Node 0, Loop 47
+Broadcast:4->0..4
+Receive Broadcast:4<-3
+Node 4, Loop 49
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Receive Broadcast:3<-4
+Node 0, Loop 48
+Node 1, Loop 52
+Receive Broadcast:3<-4
+Node 2, Loop 49
+Node 0, Loop 49
+Node 3, Loop 50
+12: 48 broadcasts received and 12 broadcasts sent
+10: 48 broadcasts received and 12 broadcasts sent
+13: 49 broadcasts received and 11 broadcasts sent
+01: 51 broadcasts received and 9 broadcasts sent
+14: 48 broadcasts received and 12 broadcasts sent
+"Simulator::runSimulation finished
+5007

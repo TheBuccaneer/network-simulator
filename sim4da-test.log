@@ -1,0 +1,561 @@
+2023-05-28 20:46:02.617 [Test worker] TRACE sim4da - Simulator::runSimulation with 5 nodes for 5 seconds
+2023-05-28 20:46:02.641 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.641 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.641 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.641 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.641 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.642 [Thread-9] TRACE sim4da - Node 4, Loop 1
+2023-05-28 20:46:02.642 [Thread-8] TRACE sim4da - Node 3, Loop 1
+2023-05-28 20:46:02.642 [Thread-5] TRACE sim4da - Node 0, Loop 1
+2023-05-28 20:46:02.642 [Thread-7] TRACE sim4da - Node 2, Loop 1
+2023-05-28 20:46:02.642 [Thread-6] TRACE sim4da - Node 1, Loop 1
+2023-05-28 20:46:02.642 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.642 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.642 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.642 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.642 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.644 [Thread-8] TRACE sim4da - Node 3, Loop 2
+2023-05-28 20:46:02.644 [Thread-5] TRACE sim4da - Node 0, Loop 2
+2023-05-28 20:46:02.644 [Thread-9] TRACE sim4da - Node 4, Loop 2
+2023-05-28 20:46:02.644 [Thread-7] TRACE sim4da - Node 2, Loop 2
+2023-05-28 20:46:02.644 [Thread-6] TRACE sim4da - Node 1, Loop 2
+2023-05-28 20:46:02.645 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.645 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.645 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.645 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.645 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.646 [Thread-6] TRACE sim4da - Node 1, Loop 3
+2023-05-28 20:46:02.646 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.646 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.646 [Thread-7] TRACE sim4da - Node 2, Loop 3
+2023-05-28 20:46:02.646 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.646 [Thread-8] TRACE sim4da - Node 3, Loop 3
+2023-05-28 20:46:02.646 [Thread-5] TRACE sim4da - Node 0, Loop 3
+2023-05-28 20:46:02.646 [Thread-9] TRACE sim4da - Node 4, Loop 3
+2023-05-28 20:46:02.646 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.646 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.646 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.646 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.647 [Thread-6] TRACE sim4da - Node 1, Loop 4
+2023-05-28 20:46:02.647 [Thread-9] TRACE sim4da - Node 4, Loop 4
+2023-05-28 20:46:02.647 [Thread-8] TRACE sim4da - Node 3, Loop 4
+2023-05-28 20:46:02.647 [Thread-7] TRACE sim4da - Node 2, Loop 4
+2023-05-28 20:46:02.647 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.647 [Thread-5] TRACE sim4da - Node 0, Loop 4
+2023-05-28 20:46:02.647 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.647 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.647 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.647 [Thread-9] TRACE sim4da - Node 4, Loop 5
+2023-05-28 20:46:02.648 [Thread-6] TRACE sim4da - Node 1, Loop 5
+2023-05-28 20:46:02.647 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.648 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.648 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.648 [Thread-5] TRACE sim4da - Node 0, Loop 5
+2023-05-28 20:46:02.648 [Thread-8] TRACE sim4da - Node 3, Loop 5
+2023-05-28 20:46:02.648 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.648 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.648 [Thread-6] TRACE sim4da - Node 1, Loop 6
+2023-05-28 20:46:02.648 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.649 [Thread-9] TRACE sim4da - Node 4, Loop 6
+2023-05-28 20:46:02.649 [Thread-7] TRACE sim4da - Node 2, Loop 5
+2023-05-28 20:46:02.649 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.649 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.649 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.649 [Thread-6] TRACE sim4da - Node 1, Loop 7
+2023-05-28 20:46:02.650 [Thread-7] TRACE sim4da - Node 2, Loop 6
+2023-05-28 20:46:02.650 [Thread-5] TRACE sim4da - Node 0, Loop 6
+2023-05-28 20:46:02.650 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.650 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.650 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.650 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.650 [Thread-7] TRACE sim4da - Node 2, Loop 7
+2023-05-28 20:46:02.650 [Thread-8] TRACE sim4da - Node 3, Loop 6
+2023-05-28 20:46:02.650 [Thread-9] TRACE sim4da - Node 4, Loop 7
+2023-05-28 20:46:02.650 [Thread-5] TRACE sim4da - Node 0, Loop 7
+2023-05-28 20:46:02.650 [Thread-6] TRACE sim4da - Node 1, Loop 8
+2023-05-28 20:46:02.651 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.651 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.651 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.651 [Thread-8] TRACE sim4da - Node 3, Loop 7
+2023-05-28 20:46:02.651 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.651 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.651 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.651 [Thread-7] TRACE sim4da - Node 2, Loop 8
+2023-05-28 20:46:02.651 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.651 [Thread-6] TRACE sim4da - Node 1, Loop 9
+2023-05-28 20:46:02.651 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.652 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.652 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.652 [Thread-9] TRACE sim4da - Node 4, Loop 8
+2023-05-28 20:46:02.652 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.652 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.652 [Thread-5] TRACE sim4da - Node 0, Loop 8
+2023-05-28 20:46:02.652 [Thread-7] TRACE sim4da - Node 2, Loop 9
+2023-05-28 20:46:02.652 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.652 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.652 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.653 [Thread-6] TRACE sim4da - Node 1, Loop 10
+2023-05-28 20:46:02.652 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.653 [Thread-9] TRACE sim4da - Node 4, Loop 9
+2023-05-28 20:46:02.653 [Thread-7] TRACE sim4da - Node 2, Loop 10
+2023-05-28 20:46:02.653 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.653 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.653 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.653 [Thread-5] TRACE sim4da - Node 0, Loop 9
+2023-05-28 20:46:02.653 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.653 [Thread-7] TRACE sim4da - Node 2, Loop 11
+2023-05-28 20:46:02.653 [Thread-6] TRACE sim4da - Node 1, Loop 11
+2023-05-28 20:46:02.654 [Thread-5] TRACE sim4da - Node 0, Loop 10
+2023-05-28 20:46:02.654 [Thread-9] TRACE sim4da - Node 4, Loop 10
+2023-05-28 20:46:02.654 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.654 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.654 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.654 [Thread-8] TRACE sim4da - Node 3, Loop 8
+2023-05-28 20:46:02.654 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.654 [Thread-9] TRACE sim4da - Node 4, Loop 11
+2023-05-28 20:46:02.654 [Thread-6] TRACE sim4da - Node 1, Loop 12
+2023-05-28 20:46:02.654 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.654 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.654 [Thread-5] TRACE sim4da - Node 0, Loop 11
+2023-05-28 20:46:02.655 [Thread-8] TRACE sim4da - Node 3, Loop 9
+2023-05-28 20:46:02.655 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.655 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.655 [Thread-9] TRACE sim4da - Node 4, Loop 12
+2023-05-28 20:46:02.655 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.655 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.655 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.655 [Thread-7] TRACE sim4da - Node 2, Loop 12
+2023-05-28 20:46:02.655 [Thread-8] TRACE sim4da - Node 3, Loop 10
+2023-05-28 20:46:02.656 [Thread-6] TRACE sim4da - Node 1, Loop 13
+2023-05-28 20:46:02.656 [Thread-5] TRACE sim4da - Node 0, Loop 12
+2023-05-28 20:46:02.656 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.656 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.655 [Thread-9] TRACE sim4da - Node 4, Loop 13
+2023-05-28 20:46:02.656 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.659 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.659 [Thread-5] TRACE sim4da - Node 0, Loop 13
+2023-05-28 20:46:02.659 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.659 [Thread-8] TRACE sim4da - Node 3, Loop 11
+2023-05-28 20:46:02.659 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.659 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.659 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.659 [Thread-9] TRACE sim4da - Node 4, Loop 14
+2023-05-28 20:46:02.659 [Thread-6] TRACE sim4da - Node 1, Loop 14
+2023-05-28 20:46:02.660 [Thread-5] TRACE sim4da - Node 0, Loop 14
+2023-05-28 20:46:02.660 [Thread-8] TRACE sim4da - Node 3, Loop 12
+2023-05-28 20:46:02.660 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.660 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.660 [Thread-7] TRACE sim4da - Node 2, Loop 13
+2023-05-28 20:46:02.660 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.660 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.660 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.660 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.660 [Thread-6] TRACE sim4da - Node 1, Loop 15
+2023-05-28 20:46:02.661 [Thread-9] TRACE sim4da - Node 4, Loop 15
+2023-05-28 20:46:02.661 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.661 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.661 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.661 [Thread-5] TRACE sim4da - Node 0, Loop 15
+2023-05-28 20:46:02.661 [Thread-6] TRACE sim4da - Node 1, Loop 16
+2023-05-28 20:46:02.661 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.661 [Thread-9] TRACE sim4da - Node 4, Loop 16
+2023-05-28 20:46:02.661 [Thread-7] TRACE sim4da - Node 2, Loop 14
+2023-05-28 20:46:02.661 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.662 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.662 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.661 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.662 [Thread-9] TRACE sim4da - Node 4, Loop 17
+2023-05-28 20:46:02.662 [Thread-5] TRACE sim4da - Node 0, Loop 16
+2023-05-28 20:46:02.662 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.662 [Thread-6] TRACE sim4da - Node 1, Loop 17
+2023-05-28 20:46:02.662 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.662 [Thread-8] TRACE sim4da - Node 3, Loop 13
+2023-05-28 20:46:02.662 [Thread-7] TRACE sim4da - Node 2, Loop 15
+2023-05-28 20:46:02.662 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.663 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.663 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.663 [Thread-9] TRACE sim4da - Node 4, Loop 18
+2023-05-28 20:46:02.663 [Thread-8] TRACE sim4da - Node 3, Loop 14
+2023-05-28 20:46:02.663 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.663 [Thread-6] TRACE sim4da - Node 1, Loop 18
+2023-05-28 20:46:02.664 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.664 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.664 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.664 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.664 [Thread-9] TRACE sim4da - Node 4, Loop 19
+2023-05-28 20:46:02.664 [Thread-8] TRACE sim4da - Node 3, Loop 15
+2023-05-28 20:46:02.664 [Thread-7] TRACE sim4da - Node 2, Loop 16
+2023-05-28 20:46:02.664 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.664 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.664 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.664 [Thread-5] TRACE sim4da - Node 0, Loop 17
+2023-05-28 20:46:02.664 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.664 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.664 [Thread-8] TRACE sim4da - Node 3, Loop 16
+2023-05-28 20:46:02.664 [Thread-6] TRACE sim4da - Node 1, Loop 19
+2023-05-28 20:46:02.665 [Thread-5] TRACE sim4da - Node 0, Loop 18
+2023-05-28 20:46:02.665 [Thread-9] TRACE sim4da - Node 4, Loop 20
+2023-05-28 20:46:02.665 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.665 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.665 [Thread-7] TRACE sim4da - Node 2, Loop 17
+2023-05-28 20:46:02.665 [Thread-6] TRACE sim4da - Node 1, Loop 20
+2023-05-28 20:46:02.665 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.665 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.665 [Thread-8] TRACE sim4da - Node 3, Loop 17
+2023-05-28 20:46:02.665 [Thread-5] TRACE sim4da - Node 0, Loop 19
+2023-05-28 20:46:02.665 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.666 [Thread-8] TRACE sim4da - Node 3, Loop 18
+2023-05-28 20:46:02.666 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.666 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.666 [Thread-8] TRACE sim4da - Node 3, Loop 19
+2023-05-28 20:46:02.666 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.666 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.666 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.667 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.667 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.667 [Thread-7] TRACE sim4da - Node 2, Loop 18
+2023-05-28 20:46:02.667 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.667 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.667 [Thread-6] TRACE sim4da - Node 1, Loop 21
+2023-05-28 20:46:02.667 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.667 [Thread-5] TRACE sim4da - Node 0, Loop 20
+2023-05-28 20:46:02.667 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.667 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.667 [Thread-9] TRACE sim4da - Node 4, Loop 21
+2023-05-28 20:46:02.667 [Thread-8] TRACE sim4da - Node 3, Loop 20
+2023-05-28 20:46:02.667 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.668 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.668 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.668 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.668 [Thread-6] TRACE sim4da - Node 1, Loop 22
+2023-05-28 20:46:02.668 [Thread-7] TRACE sim4da - Node 2, Loop 19
+2023-05-28 20:46:02.668 [Thread-9] TRACE sim4da - Node 4, Loop 22
+2023-05-28 20:46:02.668 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.668 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.668 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.668 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.668 [Thread-8] TRACE sim4da - Node 3, Loop 21
+2023-05-28 20:46:02.668 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.668 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.668 [Thread-9] TRACE sim4da - Node 4, Loop 23
+2023-05-28 20:46:02.668 [Thread-6] TRACE sim4da - Node 1, Loop 23
+2023-05-28 20:46:02.668 [Thread-7] TRACE sim4da - Node 2, Loop 20
+2023-05-28 20:46:02.668 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.668 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.668 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.669 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.669 [Thread-6] TRACE sim4da - Node 1, Loop 24
+2023-05-28 20:46:02.669 [Thread-9] TRACE sim4da - Node 4, Loop 24
+2023-05-28 20:46:02.669 [Thread-8] TRACE sim4da - Node 3, Loop 22
+2023-05-28 20:46:02.669 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.669 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.669 [Thread-7] TRACE sim4da - Node 2, Loop 21
+2023-05-28 20:46:02.669 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.670 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.670 [Thread-9] TRACE sim4da - Node 4, Loop 25
+2023-05-28 20:46:02.670 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.670 [Thread-9] TRACE sim4da - Node 4, Loop 26
+2023-05-28 20:46:02.670 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.671 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.671 [Thread-7] TRACE sim4da - Node 2, Loop 22
+2023-05-28 20:46:02.671 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.671 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.671 [Thread-9] TRACE sim4da - Node 4, Loop 27
+2023-05-28 20:46:02.671 [Thread-7] TRACE sim4da - Node 2, Loop 23
+2023-05-28 20:46:02.669 [Thread-8] TRACE sim4da - Node 3, Loop 23
+2023-05-28 20:46:02.671 [Thread-6] TRACE sim4da - Node 1, Loop 25
+2023-05-28 20:46:02.672 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.672 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.672 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.672 [Thread-7] TRACE sim4da - Node 2, Loop 24
+2023-05-28 20:46:02.672 [Thread-6] TRACE sim4da - Node 1, Loop 26
+2023-05-28 20:46:02.672 [Thread-8] TRACE sim4da - Node 3, Loop 24
+2023-05-28 20:46:02.673 [Thread-5] TRACE sim4da - Node 0, Loop 21
+2023-05-28 20:46:02.672 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.674 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.674 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.674 [Thread-7] TRACE sim4da - Node 2, Loop 25
+2023-05-28 20:46:02.674 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.674 [Thread-5] TRACE sim4da - Node 0, Loop 22
+2023-05-28 20:46:02.674 [Thread-8] TRACE sim4da - Node 3, Loop 25
+2023-05-28 20:46:02.675 [Thread-6] TRACE sim4da - Node 1, Loop 27
+2023-05-28 20:46:02.675 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.675 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.675 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.675 [Thread-6] TRACE sim4da - Node 1, Loop 28
+2023-05-28 20:46:02.675 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.676 [Thread-8] TRACE sim4da - Node 3, Loop 26
+2023-05-28 20:46:02.676 [Thread-6] TRACE sim4da - Node 1, Loop 29
+2023-05-28 20:46:02.676 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.676 [Thread-8] TRACE sim4da - Node 3, Loop 27
+2023-05-28 20:46:02.676 [Thread-5] TRACE sim4da - Node 0, Loop 23
+2023-05-28 20:46:02.676 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.677 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.677 [Thread-8] TRACE sim4da - Node 3, Loop 28
+2023-05-28 20:46:02.677 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.677 [Thread-5] TRACE sim4da - Node 0, Loop 24
+2023-05-28 20:46:02.677 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.678 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.677 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.678 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.678 [Thread-6] TRACE sim4da - Node 1, Loop 30
+2023-05-28 20:46:02.678 [Thread-9] TRACE sim4da - Node 4, Loop 28
+2023-05-28 20:46:02.678 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.678 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.678 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.679 [Thread-5] TRACE sim4da - Node 0, Loop 25
+2023-05-28 20:46:02.679 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.679 [Thread-7] TRACE sim4da - Node 2, Loop 26
+2023-05-28 20:46:02.678 [Thread-8] TRACE sim4da - Node 3, Loop 29
+2023-05-28 20:46:02.679 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.679 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.679 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.679 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.679 [Thread-9] TRACE sim4da - Node 4, Loop 29
+2023-05-28 20:46:02.679 [Thread-7] TRACE sim4da - Node 2, Loop 27
+2023-05-28 20:46:02.679 [Thread-5] TRACE sim4da - Node 0, Loop 26
+2023-05-28 20:46:02.679 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.679 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.679 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.680 [Thread-6] TRACE sim4da - Node 1, Loop 31
+2023-05-28 20:46:02.680 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.680 [Thread-7] TRACE sim4da - Node 2, Loop 28
+2023-05-28 20:46:02.680 [Thread-8] TRACE sim4da - Node 3, Loop 30
+2023-05-28 20:46:02.680 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.680 [Thread-9] TRACE sim4da - Node 4, Loop 30
+2023-05-28 20:46:02.680 [Thread-5] TRACE sim4da - Node 0, Loop 27
+2023-05-28 20:46:02.680 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.680 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.680 [Thread-6] TRACE sim4da - Node 1, Loop 32
+2023-05-28 20:46:02.680 [Thread-7] TRACE sim4da - Node 2, Loop 29
+2023-05-28 20:46:02.680 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.680 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.680 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.681 [Thread-8] TRACE sim4da - Node 3, Loop 31
+2023-05-28 20:46:02.681 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.681 [Thread-9] TRACE sim4da - Node 4, Loop 31
+2023-05-28 20:46:02.681 [Thread-6] TRACE sim4da - Node 1, Loop 33
+2023-05-28 20:46:02.681 [Thread-5] TRACE sim4da - Node 0, Loop 28
+2023-05-28 20:46:02.681 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.681 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.681 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.681 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.681 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.681 [Thread-9] TRACE sim4da - Node 4, Loop 32
+2023-05-28 20:46:02.681 [Thread-6] TRACE sim4da - Node 1, Loop 34
+2023-05-28 20:46:02.681 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.681 [Thread-8] TRACE sim4da - Node 3, Loop 32
+2023-05-28 20:46:02.681 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.681 [Thread-7] TRACE sim4da - Node 2, Loop 30
+2023-05-28 20:46:02.681 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.681 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.682 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.682 [Thread-9] TRACE sim4da - Node 4, Loop 33
+2023-05-28 20:46:02.681 [Thread-5] TRACE sim4da - Node 0, Loop 29
+2023-05-28 20:46:02.682 [Thread-8] TRACE sim4da - Node 3, Loop 33
+2023-05-28 20:46:02.682 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.682 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.682 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.682 [Thread-7] TRACE sim4da - Node 2, Loop 31
+2023-05-28 20:46:02.682 [Thread-9] TRACE sim4da - Node 4, Loop 34
+2023-05-28 20:46:02.682 [Thread-6] TRACE sim4da - Node 1, Loop 35
+2023-05-28 20:46:02.682 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.682 [Thread-5] TRACE sim4da - Node 0, Loop 30
+2023-05-28 20:46:02.682 [Thread-8] TRACE sim4da - Node 3, Loop 34
+2023-05-28 20:46:02.683 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.683 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.683 [Thread-6] TRACE sim4da - Node 1, Loop 36
+2023-05-28 20:46:02.683 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.683 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.683 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.683 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.683 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.684 [Thread-5] TRACE sim4da - Node 0, Loop 31
+2023-05-28 20:46:02.686 [Thread-7] TRACE sim4da - Node 2, Loop 32
+2023-05-28 20:46:02.686 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.686 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.687 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.687 [Thread-8] TRACE sim4da - Node 3, Loop 35
+2023-05-28 20:46:02.687 [Thread-6] TRACE sim4da - Node 1, Loop 37
+2023-05-28 20:46:02.687 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.687 [Thread-9] TRACE sim4da - Node 4, Loop 35
+2023-05-28 20:46:02.687 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.687 [Thread-5] TRACE sim4da - Node 0, Loop 32
+2023-05-28 20:46:02.687 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.687 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.687 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.687 [Thread-7] TRACE sim4da - Node 2, Loop 33
+2023-05-28 20:46:02.687 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.687 [Thread-8] TRACE sim4da - Node 3, Loop 36
+2023-05-28 20:46:02.687 [Thread-9] TRACE sim4da - Node 4, Loop 36
+2023-05-28 20:46:02.687 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.687 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.687 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.688 [Thread-5] TRACE sim4da - Node 0, Loop 33
+2023-05-28 20:46:02.687 [Thread-6] TRACE sim4da - Node 1, Loop 38
+2023-05-28 20:46:02.688 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.688 [Thread-9] TRACE sim4da - Node 4, Loop 37
+2023-05-28 20:46:02.688 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.688 [Thread-8] TRACE sim4da - Node 3, Loop 37
+2023-05-28 20:46:02.688 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.688 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.688 [Thread-7] TRACE sim4da - Node 2, Loop 34
+2023-05-28 20:46:02.688 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.688 [Thread-5] TRACE sim4da - Node 0, Loop 34
+2023-05-28 20:46:02.688 [Thread-6] TRACE sim4da - Node 1, Loop 39
+2023-05-28 20:46:02.688 [Thread-9] TRACE sim4da - Node 4, Loop 38
+2023-05-28 20:46:02.688 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.688 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.688 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.688 [Thread-7] TRACE sim4da - Node 2, Loop 35
+2023-05-28 20:46:02.688 [Thread-8] TRACE sim4da - Node 3, Loop 38
+2023-05-28 20:46:02.688 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.688 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.688 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.688 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.688 [Thread-9] TRACE sim4da - Node 4, Loop 39
+2023-05-28 20:46:02.688 [Thread-5] TRACE sim4da - Node 0, Loop 35
+2023-05-28 20:46:02.688 [Thread-7] TRACE sim4da - Node 2, Loop 36
+2023-05-28 20:46:02.689 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.689 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.689 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.689 [Thread-6] TRACE sim4da - Node 1, Loop 40
+2023-05-28 20:46:02.689 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.689 [Thread-5] TRACE sim4da - Node 0, Loop 36
+2023-05-28 20:46:02.689 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.689 [Thread-9] TRACE sim4da - Node 4, Loop 40
+2023-05-28 20:46:02.689 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.689 [Thread-7] TRACE sim4da - Node 2, Loop 37
+2023-05-28 20:46:02.689 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.689 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.689 [Thread-6] TRACE sim4da - Node 1, Loop 41
+2023-05-28 20:46:02.689 [Thread-8] TRACE sim4da - Node 3, Loop 39
+2023-05-28 20:46:02.689 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.689 [Thread-5] TRACE sim4da - Node 0, Loop 37
+2023-05-28 20:46:02.689 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.689 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.689 [Thread-7] TRACE sim4da - Node 2, Loop 38
+2023-05-28 20:46:02.689 [Thread-6] TRACE sim4da - Node 1, Loop 42
+2023-05-28 20:46:02.689 [Thread-9] TRACE sim4da - Node 4, Loop 41
+2023-05-28 20:46:02.690 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.689 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.690 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.690 [Thread-8] TRACE sim4da - Node 3, Loop 40
+2023-05-28 20:46:02.690 [Thread-5] TRACE sim4da - Node 0, Loop 38
+2023-05-28 20:46:02.690 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.690 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.690 [Thread-7] TRACE sim4da - Node 2, Loop 39
+2023-05-28 20:46:02.690 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.690 [Thread-6] TRACE sim4da - Node 1, Loop 43
+2023-05-28 20:46:02.690 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.690 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.690 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.690 [Thread-5] TRACE sim4da - Node 0, Loop 39
+2023-05-28 20:46:02.690 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.690 [Thread-8] TRACE sim4da - Node 3, Loop 41
+2023-05-28 20:46:02.690 [Thread-7] TRACE sim4da - Node 2, Loop 40
+2023-05-28 20:46:02.691 [Thread-9] TRACE sim4da - Node 4, Loop 42
+2023-05-28 20:46:02.691 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.691 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.691 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.691 [Thread-7] TRACE sim4da - Node 2, Loop 41
+2023-05-28 20:46:02.691 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.691 [Thread-5] TRACE sim4da - Node 0, Loop 40
+2023-05-28 20:46:02.691 [Thread-8] TRACE sim4da - Node 3, Loop 42
+2023-05-28 20:46:02.691 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.691 [Thread-5] TRACE sim4da - Node 0, Loop 41
+2023-05-28 20:46:02.691 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.691 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.691 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.691 [Thread-6] TRACE sim4da - Node 1, Loop 44
+2023-05-28 20:46:02.692 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.692 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.692 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.692 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.692 [Thread-7] TRACE sim4da - Node 2, Loop 42
+2023-05-28 20:46:02.692 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.692 [Thread-6] TRACE sim4da - Node 1, Loop 45
+2023-05-28 20:46:02.692 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.692 [Thread-9] TRACE sim4da - Node 4, Loop 43
+2023-05-28 20:46:02.692 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.692 [Thread-5] TRACE sim4da - Broadcast:0->0..4
+2023-05-28 20:46:02.692 [Thread-9] TRACE sim4da - Node 4, Loop 44
+2023-05-28 20:46:02.692 [Thread-5] TRACE sim4da - Node 0, Loop 42
+2023-05-28 20:46:02.693 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.693 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.692 [Thread-6] TRACE sim4da - Node 1, Loop 46
+2023-05-28 20:46:02.692 [Thread-8] TRACE sim4da - Node 3, Loop 43
+2023-05-28 20:46:02.693 [Thread-5] TRACE sim4da - Node 0, Loop 43
+2023-05-28 20:46:02.693 [Thread-6] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.693 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.693 [Thread-7] TRACE sim4da - Node 2, Loop 43
+2023-05-28 20:46:02.693 [Thread-8] TRACE sim4da - Node 3, Loop 44
+2023-05-28 20:46:02.693 [Thread-6] TRACE sim4da - Node 1, Loop 47
+2023-05-28 20:46:02.693 [Thread-9] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.693 [Thread-8] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.693 [Thread-7] TRACE sim4da - Receive Broadcast:4<-0
+2023-05-28 20:46:02.693 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.693 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.693 [Thread-7] TRACE sim4da - Node 2, Loop 44
+2023-05-28 20:46:02.693 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.693 [Thread-8] TRACE sim4da - Node 3, Loop 45
+2023-05-28 20:46:02.694 [Thread-6] TRACE sim4da - Node 1, Loop 48
+2023-05-28 20:46:02.694 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.694 [Thread-8] TRACE sim4da - Node 3, Loop 46
+2023-05-28 20:46:02.694 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.694 [Thread-8] TRACE sim4da - Node 3, Loop 47
+2023-05-28 20:46:02.694 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.694 [Thread-9] TRACE sim4da - Node 4, Loop 45
+2023-05-28 20:46:02.694 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.695 [Thread-6] TRACE sim4da - Broadcast:1->0..4
+2023-05-28 20:46:02.695 [Thread-7] TRACE sim4da - Node 2, Loop 45
+2023-05-28 20:46:02.695 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.695 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.695 [Thread-6] TRACE sim4da - Node 1, Loop 49
+2023-05-28 20:46:02.696 [Thread-9] TRACE sim4da - Node 4, Loop 46
+2023-05-28 20:46:02.696 [Thread-8] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.696 [Thread-9] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.696 [Thread-9] TRACE sim4da - Node 4, Loop 47
+2023-05-28 20:46:02.696 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.696 [Thread-5] TRACE sim4da - Node 0, Loop 44
+2023-05-28 20:46:02.697 [Thread-8] TRACE sim4da - Node 3, Loop 48
+2023-05-28 20:46:02.697 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.697 [Thread-7] TRACE sim4da - Broadcast:2->0..4
+2023-05-28 20:46:02.697 [Thread-9] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.697 [Thread-8] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.697 [Thread-5] TRACE sim4da - Node 0, Loop 45
+2023-05-28 20:46:02.697 [Thread-6] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.697 [Thread-7] TRACE sim4da - Node 2, Loop 46
+2023-05-28 20:46:02.697 [Thread-8] TRACE sim4da - Broadcast:3->0..4
+2023-05-28 20:46:02.697 [Thread-6] TRACE sim4da - Node 1, Loop 50
+2023-05-28 20:46:02.697 [Thread-7] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.698 [Thread-7] TRACE sim4da - Node 2, Loop 47
+2023-05-28 20:46:02.698 [Thread-7] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.698 [Thread-7] TRACE sim4da - Node 2, Loop 48
+2023-05-28 20:46:02.697 [Thread-5] TRACE sim4da - Receive Broadcast:4<-2
+2023-05-28 20:46:02.697 [Thread-9] TRACE sim4da - Node 4, Loop 48
+2023-05-28 20:46:02.698 [Thread-8] TRACE sim4da - Node 3, Loop 49
+2023-05-28 20:46:02.698 [Thread-5] TRACE sim4da - Node 0, Loop 46
+2023-05-28 20:46:02.698 [Thread-6] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.698 [Thread-9] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.698 [Thread-5] TRACE sim4da - Receive Broadcast:4<-1
+2023-05-28 20:46:02.698 [Thread-6] TRACE sim4da - Node 1, Loop 51
+2023-05-28 20:46:02.698 [Thread-5] TRACE sim4da - Node 0, Loop 47
+2023-05-28 20:46:02.698 [Thread-9] TRACE sim4da - Broadcast:4->0..4
+2023-05-28 20:46:02.698 [Thread-5] TRACE sim4da - Receive Broadcast:4<-3
+2023-05-28 20:46:02.699 [Thread-9] TRACE sim4da - Node 4, Loop 49
+2023-05-28 20:46:02.699 [Thread-6] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.699 [Thread-7] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.699 [Thread-8] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.699 [Thread-5] TRACE sim4da - Node 0, Loop 48
+2023-05-28 20:46:02.699 [Thread-6] TRACE sim4da - Node 1, Loop 52
+2023-05-28 20:46:02.699 [Thread-5] TRACE sim4da - Receive Broadcast:3<-4
+2023-05-28 20:46:02.699 [Thread-7] TRACE sim4da - Node 2, Loop 49
+2023-05-28 20:46:02.699 [Thread-5] TRACE sim4da - Node 0, Loop 49
+2023-05-28 20:46:02.699 [Thread-8] TRACE sim4da - Node 3, Loop 50
+2023-05-28 20:46:07.621 [Thread-7] TRACE sim4da - 2: 48 broadcasts received and 12 broadcasts sent
+2023-05-28 20:46:07.621 [Thread-5] TRACE sim4da - 0: 48 broadcasts received and 12 broadcasts sent
+2023-05-28 20:46:07.621 [Thread-8] TRACE sim4da - 3: 49 broadcasts received and 11 broadcasts sent
+2023-05-28 20:46:07.621 [Thread-9] TRACE sim4da - 4: 48 broadcasts received and 12 broadcasts sent
+2023-05-28 20:46:07.621 [Thread-6] TRACE sim4da - 1: 51 broadcasts received and 9 broadcasts sent
+2023-05-28 20:46:07.622 [Test worker] TRACE sim4da - Simulator::runSimulation finished
